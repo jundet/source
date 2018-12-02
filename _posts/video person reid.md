@@ -6,6 +6,8 @@ tags: # 行人再识别
 categories: 行人再识别
 ---
 
+[Paper](https://handong1587.github.io/deep_learning/2015/10/09/re-id.html) [Datasets](http://robustsystems.coe.neu.edu/sites/robustsystems.coe.neu.edu/files/systems/projectpages/reiddataset.html) [Code1](https://github.com/KaiyangZhou/deep-person-reid) [Code2](https://github.com/jiyanggao/Video-Person-ReID)
+
 #### Leaderboard
 
 | rank1/mAP    |iLIDS-VID       | PRID2011 | MARS  | DukeMTMC-VideoReID |
