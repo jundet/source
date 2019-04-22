@@ -11,7 +11,7 @@ categories: 机器学习
 
 # 机器学习课程——糖尿病预测
 
- [code](https://github.com/jundet/MLClass)
+ [code](https://github.com/jundet/ML)
 
 #### 具体流程为
 
