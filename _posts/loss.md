@@ -44,7 +44,7 @@ CLASS torch.nn.MSELoss(size_average=None, reduce=None, reduction='mean')
 
 ##### reduction
 
-可选项为‘none’、‘mean’、‘sum’。‘mean’返回平均值，‘sum’返回损失值之和。
+可选项为none、mean、sum。mean返回平均值，sum返回损失值之和。
 
 其他两个参数已经弃用
 
@@ -72,7 +72,7 @@ $$
 
 ##### reduction
 
-可选项为‘none’、‘mean’、‘sum’。‘mean’返回平均值，‘sum’返回损失值之和。
+可选项为none、mean、sum。mean返回平均值，sum返回损失值之和。
 
 ### TripletMarginLoss
 
@@ -80,7 +80,7 @@ CLASS torch.nn.TripletMarginLoss(margin=1.0, p=2.0, eps=1e-06, swap=False, size_
 
 计算三元组损失
 $$
-L(a,p,n)=max\{{d(a_i,p_i)-d(a_i,n_i)+margin,0}\}
+L(a,p,n)=\max\{d(a_i,p_i)-d(a_i,n_i)+margin,0\}
 $$
 其中$d(x_i,y_i)=||x_i-y_i||_p$
 
@@ -90,7 +90,7 @@ $$
 
 ##### reduction
 
-可选项为‘none’、‘mean’、‘sum’。‘mean’返回平均值，‘sum’返回损失值之和。
+可选项为none、mean、sum。mean返回平均值，sum返回损失值之和。
 
 TripletSemihardLoss和TripletLoss的实现方式
 

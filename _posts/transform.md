@@ -1,7 +1,7 @@
 ---
 title: transform
 date: 2019-09-20 09:58:25
-tags:#
+tags:
 	- PyTorch
 	- 深度学习
 	- 机器学习
