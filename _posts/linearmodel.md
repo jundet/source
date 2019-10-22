@@ -1,5 +1,5 @@
 ---
-title: linear model
+title: 线性回归
 date: 2019-09-24 09:46:53
 tags:
 	- 机器学习
