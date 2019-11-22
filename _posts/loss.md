@@ -7,7 +7,7 @@ tags:
 	- 深度学习
 mathjax: true
 toc: true 
-categories: 深度学习
+categories: PyTorch
 ---
 
 # PyTorch中的损失函数
