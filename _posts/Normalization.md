@@ -41,7 +41,7 @@ $$
 其中
 $$
 \mu _i = \frac{1}{m}\sum_{k\in S_i}x_k, (均值)\\
-\sigma _i = \sqrt{\frac{1}{m}\sum_{k\in S_i}(x_k-\mu _i)^2 +\epsilon} ,(方差)
+\sigma _i = \sqrt{\frac{1}{m}\sum_{k\in S_i}(x_k-\mu _i)^2 +\epsilon} ,(标准差)
 $$
 其中$\epsilon$是一个很小的正值，比如$10^{-8}$,这样可以强制避免$\sqrt{z}$ 的梯度在z=0时未定义的问题。在测试阶段$\mu$和$\sigma$可以被替换为训练阶段收集的运行均值。这使得模型可以对单一样本评估，而无需使用定义与整个小批量的$\mu$和$\sigma$。
 
